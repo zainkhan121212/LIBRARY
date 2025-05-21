@@ -31,3 +31,4 @@ class LoginWindow:
             messagebox.showinfo("Login", "Login successful!")
         else:
             messagebox.showerror("Login Failed", "Invalid username or password.")
+            print("hello")
