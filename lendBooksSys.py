@@ -7,7 +7,7 @@ def lend_book():
     book_title = entry_book.get()
     member_id = entry_member_id.get()
     due_date = entry_due_date.get()
-
+#testing
     if book_title and member_id and due_date:
         lend_records.append({'book': book_title, 'member_id': member_id, 'due_date': due_date})
         messagebox.showinfo("Success", f"Book '{book_title}' lent to Member ID {member_id}")
