@@ -26,7 +26,8 @@ class LoginWindow:
     def login(self):
         username = self.username_entry.get()
         password = self.password_entry.get()
-
+#testing
+        
         if username == "admin" and password == "admin":
             messagebox.showinfo("Login", "Login successful!")
         else:
